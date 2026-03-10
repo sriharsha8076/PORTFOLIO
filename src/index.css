@@ -1,0 +1,11 @@
+/* Reset any Vite defaults — global styles are in App.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}

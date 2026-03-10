@@ -1,0 +1,165 @@
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.skills-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skill-bar-item {
+    margin-bottom: 1.4rem;
+}
+
+.skill-bar-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-icon {
+    font-size: 1.1rem;
+}
+
+.skill-name {
+    flex: 1;
+    color: #cbd5e1;
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.25), rgba(37, 99, 235, 0.25));
+    border: 1px solid rgba(167, 139, 250, 0.4);
+    color: #a78bfa;
+    padding: 0.15rem 0.55rem;
+    border-radius: 50px;
+}
+
+.skill-level {
+    font-size: 0.85rem;
+    color: #475569;
+    font-weight: 600;
+}
+
+.skill-bar-track {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    border-radius: 50px;
+    transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.tool-chip {
+    padding: 0.4rem 1rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    cursor: default;
+    transition: all 0.2s ease;
+}
+
+.tool-chip:hover {
+    background: rgba(167, 139, 250, 0.1);
+    border-color: rgba(167, 139, 250, 0.3);
+    color: #a78bfa;
+    transform: translateY(-2px);
+}
+
+/* DSA - amber */
+.chip-dsa {
+    border-color: rgba(251, 191, 36, 0.2);
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.05);
+}
+
+.chip-dsa:hover {
+    background: rgba(251, 191, 36, 0.12);
+    border-color: rgba(251, 191, 36, 0.45);
+    color: #fde68a;
+}
+
+/* Cloud & DevOps - sky blue */
+.chip-cloud {
+    border-color: rgba(56, 189, 248, 0.2);
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.05);
+}
+
+.chip-cloud:hover {
+    background: rgba(56, 189, 248, 0.12);
+    border-color: rgba(56, 189, 248, 0.45);
+    color: #7dd3fc;
+}
+
+/* AI/ML - pink/rose */
+.chip-ai {
+    border-color: rgba(244, 114, 182, 0.2);
+    color: #f472b6;
+    background: rgba(244, 114, 182, 0.05);
+}
+
+.chip-ai:hover {
+    background: rgba(244, 114, 182, 0.12);
+    border-color: rgba(244, 114, 182, 0.45);
+    color: #f9a8d4;
+}
+
+/* Data Analytics - emerald */
+.chip-data {
+    border-color: rgba(52, 211, 153, 0.2);
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.05);
+}
+
+.chip-data:hover {
+    background: rgba(52, 211, 153, 0.12);
+    border-color: rgba(52, 211, 153, 0.45);
+    color: #6ee7b7;
+}
+
+/* Concepts - indigo */
+.chip-concepts {
+    border-color: rgba(99, 102, 241, 0.25);
+    color: #818cf8;
+    background: rgba(99, 102, 241, 0.06);
+}
+
+.chip-concepts:hover {
+    background: rgba(99, 102, 241, 0.14);
+    border-color: rgba(99, 102, 241, 0.5);
+    color: #a5b4fc;
+}
+
+@media (max-width: 768px) {
+    .skills-content {
+        grid-template-columns: 1fr;
+    }
+}
