@@ -29,7 +29,7 @@ const About = () => {
                         <p>
                             Hi! I&apos;m <strong>Gundlapalli Sri Harsha Reddy</strong>, a passionate
                             Full Stack Developer and 2nd Year BTech CSE student at <strong>KL University</strong>,
-                            Guntur. I maintain a current CGPA of <strong>9.67</strong> and love building
+                            Guntur. I maintain a current CGPA of <strong>9.69</strong> and love building
                             modern, real-world web applications.
                         </p>
                         <p>
@@ -67,7 +67,7 @@ const About = () => {
                                 <span className="info-icon">⭐</span>
                                 <div>
                                     <span className="info-label">CGPA</span>
-                                    <span className="info-value">9.67 (Current)</span>
+                                    <span className="info-value">9.69 (Current)</span>
                                 </div>
                             </div>
                         </div>

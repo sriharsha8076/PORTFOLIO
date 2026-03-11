@@ -13,7 +13,7 @@ const Hero = () => {
                     <span className="hero-title-text">BTech CSE Student &amp; Full Stack Developer</span>
                 </h2>
                 <p className="hero-description">
-                    2nd Year BTech CSE student at <strong>KL University</strong> with a <strong>9.67 CGPA</strong>.
+                    2nd Year BTech CSE student at <strong>KL University</strong> with a <strong>9.69 CGPA</strong>.
                     I build full-stack web apps using React, Vite, TailwindCSS and love turning ideas into
                     real-world products.
                 </p>
@@ -37,7 +37,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-stats">
                     <div className="stat">
-                        <span className="stat-number">9.67</span>
+                        <span className="stat-number">9.69</span>
                         <span className="stat-label">CGPA</span>
                     </div>
                     <div className="stat-divider"></div>

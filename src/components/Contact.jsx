@@ -58,7 +58,7 @@ const Contact = () => {
                                 <span>sriharsha8076</span>
                             </div>
                         </a>
-                        <a className="contact-card" href="https://www.codechef.com/users/kl2400031017" target="_blank" rel="noreferrer">
+                        <a className="contact-card" href="https://www.codechef.com/users/kl_2400031017" target="_blank" rel="noreferrer">
                             <span className="contact-card-icon">💻</span>
                             <div>
                                 <h4>CodeChef</h4>
